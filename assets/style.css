@@ -1,4 +1,12 @@
-
+/* colors used
+#FFB100 Bright Yellow 2
+#FBC252 Plae Yellow2
+#F0ECCF Pale Begie
+#A3BB98 Ash Green
+#395144 Dark Green 2
+#4E6C50 Green 2
+#AA8B56 Brown
+#F0EBCE Plae Tan 2  */
 body {
     background-color: var(--dark);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -7,27 +15,35 @@ body {
 }
 
 :root {
-    --pale: whitesmoke;
-    --dark: rgb(40, 55, 46);
-    --golden: rgb(230, 179, 13); 
-    --sand: rgb(182, 168, 191);
-    --navy: rgb(33, 33, 53);
+    --paleT: #F0EBCE;
+    --darkG: #395144;
+    --brightY: #FFB100; 
+    --paleY: #FBC252;
+    --green: #4E6C50;
+    --brown: #AA8B56;
+    --ashG: #A3BB98;
+    --paleB: #F0ECCF;
+    
 }
 
 .page-title {
     font-size: 30px;
-    background-color: var(--sand);
-    color: var(--dark);
-    padding: 10px;
+    background-color: var(--ashG);
+    color: var(--darkG);
+    padding: 15px;
     display: inline-block;
     width: 100%;
     padding-bottom: 30px;
+    padding-left: 396px;
+   
+    
 }
 
 .page-title nav{
     font-size: 30px;
     float: right;
-    padding-top: 20px;
+    padding-top: 10px;
+    color: #6a583a;
 }
 
 .page-title nav ul{
@@ -41,28 +57,28 @@ body {
 
 a{
     font-size: 20px;
-    color: var(--dark);
+    color:#433825;
     padding: 10px;
 }
 
 aside {
-        border-color: var(--pale);
-        border-right: solid;
-        border-width: 3px;
+        border-color: var (--brightY);
+        border-right:dashed;
+        border-width: 2px;
         float: left;
         margin-right: 20px;
-        width: 20%;
+        width: 30%;
         font-size: 30px;
   }
 
   #me-face {
-    max-height: 300px;
-    padding-right: 20px;
+    max-height: 350px;
+    padding-left: 340px;
     display:inline-block;
   }
 
 .banner{
-    height: 20px;
+    height: 10px;
     width: 100%;
 }
 
@@ -74,21 +90,23 @@ aside {
     }
 
     .about-me p{
-        display:inline;
+        display:inline-flexbox;
+        padding-left: 90px;
         
     }
 #about-me {
-    text-align: top;
+    text-align: right;
 }
 
 #previous-work {
     padding-top: 240px;
     padding-bottom: 500px;
     text-align: center;
+    padding-left: 100px;
 }
 
 .previous-work {
-    padding: 20px;
+    padding: 350px;
     padding-top: 60px;
 }
 
