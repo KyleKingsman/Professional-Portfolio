@@ -12,11 +12,9 @@ N/A
 ## Usage
 
     Click on the images to navigate to the applications I have made.
-
-
    https://github.com/KyleKingsman/profPortfolio-self
 
-    ![screenshot]assests/images/Screenshot.png
+    ![screenshot]assets/images/Screenshot portfolio.jpg
 
 ## Credits
 
